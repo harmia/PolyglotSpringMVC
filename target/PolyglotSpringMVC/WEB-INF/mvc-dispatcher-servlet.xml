@@ -1,0 +1,67 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:jpa="http://www.springframework.org/schema/data/jpa" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:repository="http://www.springframework.org/schema/data/repository"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/data/jpa
+        http://www.springframework.org/schema/data/jpa/spring-jpa.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/data/repository
+        http://www.springframework.org/schema/data/repository/spring-repository.xsd">
+
+    <context:component-scan base-package="info.harmia.polyglot.springapp.mvc"/>
+
+    <mvc:annotation-driven />
+    <mvc:resources mapping="/images/**" location="/images/"/>
+    <mvc:resources mapping="/data/**" location="/data/"/>
+    <mvc:resources mapping="/js/**" location="/js/"/>
+
+    <mvc:interceptors>
+        <bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor"/>
+    </mvc:interceptors>
+
+    <bean id="localeResolver" class="org.springframework.web.servlet.i18n.CookieLocaleResolver">
+        <property name="cookieName" value="locale"/>
+        <property name="defaultLocale" value="en"/>
+        <property name="cookieMaxAge" value="100000" />
+    </bean>
+
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/pages/"/>
+        <property name="suffix" value=".jsp"/>
+        <property name="requestContextAttribute" value="requestContext"/>
+    </bean>
+
+    <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+        <property name="basenames">
+            <list>
+                <value>i18n/exceptions</value>
+                <value>i18n/messages</value>
+            </list>
+        </property>
+    </bean>
+
+    <jpa:repositories base-package="info.harmia.polyglot.springapp.mvc.core.repositories"/>
+
+    <repository:jackson-populator locations="data/data.json"/>
+
+    <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalEntityManagerFactoryBean">
+        <property name="persistenceUnitName" value="defaultPersistenceUnit"/>
+    </bean>
+
+    <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+        <property name="entityManagerFactory" ref="entityManagerFactory" />
+    </bean>
+
+
+
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+</beans>

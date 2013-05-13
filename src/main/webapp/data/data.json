@@ -1,0 +1,1278 @@
+[
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Alajärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Alavieska"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Alavus"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Asikkala"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Askola"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Aura"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Brändö"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Eckerö"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Enonkoski"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Enontekiö"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Espoo"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Eura"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Eurajoki"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Evijärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Finström"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Forssa"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Föglö"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Geta"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Haapajärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Haapavesi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Hailuoto"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Halsua"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Hamina"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Hammarland"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Hankasalmi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Hanko"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Harjavalta"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Hartola"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Hattula"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Hausjärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Heinola"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Heinävesi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Helsinki"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Hirvensalmi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Hollola"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Honkajoki"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Huittinen"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Humppila"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Hyrynsalmi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Hyvinkää"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Hämeenkoski"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Hämeenkyrö"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Hämeenlinna"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Ii"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Iisalmi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Iitti"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Ikaalinen"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Ilmajoki"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Ilomantsi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Imatra"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Inari"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Inkoo"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Isojoki"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Isokyrö"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Jalasjärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Janakkala"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Joensuu"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Jokioinen"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Jomala"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Joroinen"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Joutsa"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Juankoski"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Juuka"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Juupajoki"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Juva"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Jyväskylä"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Jämijärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Jämsä"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Järvenpää"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kaarina"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kaavi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kajaani"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kalajoki"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kangasala"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kangasniemi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kankaanpää"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kannonkoski"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kannus"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Karijoki"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Karkkila"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Karstula"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Karvia"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kaskinen"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kauhajoki"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kauhava"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kauniainen"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kaustinen"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Keitele"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kemi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kemijärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Keminmaa"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kemiönsaari"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kempele"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kerava"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Keuruu"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kihniö"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kinnula"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kirkkonummi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kitee"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kittilä"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kiuruvesi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kivijärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kokemäki"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kokkola"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kolari"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Konnevesi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kontiolahti"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Korsnäs"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Koski Tl"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kotka"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kouvola"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kristiinankaupunki"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kruunupyy"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kuhmo"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kuhmoinen"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kumlinge"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kuopio"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kuortane"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kurikka"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kustavi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kuusamo"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kyyjärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kärkölä"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kärsämäki"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Kökar"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Köyliö"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Lahti"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Laihia"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Laitila"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Lapinjärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Lapinlahti"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Lappajärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Lappeenranta"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Lapua"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Laukaa"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Lavia"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Lemi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Lemland"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Lempäälä"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Leppävirta"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Lestijärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Lieksa"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Lieto"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Liminka"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Liperi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Lohja"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Loimaa"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Loppi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Loviisa"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Luhanka"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Lumijoki"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Lumparland"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Luoto"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Luumäki"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Luvia"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Maalahti"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Maaninka"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Maarianhamina"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Marttila"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Masku"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Merijärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Merikarvia"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Miehikkälä"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Mikkeli"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Muhos"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Multia"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Muonio"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Mustasaari"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Muurame"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Mynämäki"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Myrskylä"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Mäntsälä"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Mänttä-Vilppula"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Mäntyharju"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Naantali"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Nakkila"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Nastola"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Nivala"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Nokia"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Nousiainen"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Nurmes"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Nurmijärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Närpiö"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Orimattila"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Oripää"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Orivesi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Oulainen"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Oulu"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Outokumpu"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Padasjoki"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Paimio"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Paltamo"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Parainen"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Parikkala"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Parkano"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Pedersören kunta"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Pelkosenniemi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Pello"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Perho"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Pertunmaa"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Petäjävesi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Pieksämäki"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Pielavesi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Pietarsaari"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Pihtipudas"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Pirkkala"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Polvijärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Pomarkku"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Pori"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Pornainen"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Porvoo"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Posio"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Pudasjärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Pukkila"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Punkalaidun"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Puolanka"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Puumala"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Pyhtää"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Pyhäjoki"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Pyhäjärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Pyhäntä"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Pyhäranta"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Pälkäne"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Pöytyä"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Raahe"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Raasepori"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Raisio"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Rantasalmi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Ranua"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Rauma"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Rautalampi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Rautavaara"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Rautjärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Reisjärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Riihimäki"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Ristijärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Rovaniemi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Ruokolahti"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Ruovesi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Rusko"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Rääkkylä"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Saarijärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Salla"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Salo"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Saltvik"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Sastamala"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Sauvo"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Savitaipale"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Savonlinna"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Savukoski"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Seinäjoki"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Sievi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Siikainen"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Siikajoki"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Siikalatva"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Siilinjärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Simo"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Sipoo"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Siuntio"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Sodankylä"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Soini"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Somero"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Sonkajärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Sotkamo"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Sottunga"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Sulkava"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Sund"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Suomussalmi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Suonenjoki"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Sysmä"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Säkylä"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Taipalsaari"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Taivalkoski"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Taivassalo"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Tammela"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Tampere"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Tarvasjoki"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Tervo"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Tervola"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Teuva"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Tohmajärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Toholampi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Toivakka"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Tornio"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Turku"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Tuusniemi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Tuusula"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Tyrnävä"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Ulvila"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Urjala"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Utajärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Utsjoki"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Uurainen"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Uusikaarlepyy"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Uusikaupunki"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Vaala"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Vaasa"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Valkeakoski"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Valtimo"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Vantaa"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Varkaus"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Vehmaa"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Vesanto"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Vesilahti"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Veteli"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Vieremä"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Vihti"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Viitasaari"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Vimpeli"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Virolahti"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Virrat"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Vårdö"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Vöyri"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Ylitornio"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Ylivieska"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Ylöjärvi"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Ypäjä"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Ähtäri"
+    },
+    {
+        "_class": "info.harmia.polyglot.springapp.mvc.core.model.Municipality",
+        "name": "Äänekoski"
+    }
+]

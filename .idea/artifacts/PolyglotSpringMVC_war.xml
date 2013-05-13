@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="PolyglotSpringMVC:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="PolyglotSpringMVC.war">
+      <element id="artifact" artifact-name="PolyglotSpringMVC:war exploded" />
+    </root>
+  </artifact>
+</component>
