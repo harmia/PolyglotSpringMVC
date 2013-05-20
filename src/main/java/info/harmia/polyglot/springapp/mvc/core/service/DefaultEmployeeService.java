@@ -4,7 +4,6 @@ import info.harmia.polyglot.springapp.mvc.core.model.Department;
 import info.harmia.polyglot.springapp.mvc.core.model.Employee;
 import info.harmia.polyglot.springapp.mvc.core.model.Municipality;
 import info.harmia.polyglot.springapp.mvc.core.repositories.EmployeeRepository;
-import org.joda.time.LocalDate;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -52,7 +51,7 @@ public class DefaultEmployeeService implements EmployeeService {
         Municipality municipality = municipalityService.getMunicipality(employeeForm.getMunicipalityId());
         employee.setMunicipality(municipality);
 
-        employee.setContractBeginDate(new LocalDate(employeeForm.getContractBeginDate()));
+        employee.setContractBeginDate(employeeForm.getContractBeginDate());
         employeeRepository.save(employee);
     }
 

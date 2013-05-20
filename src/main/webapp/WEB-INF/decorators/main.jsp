@@ -98,7 +98,7 @@
                     }), function( item ) {
                         return {
                             label: item.name,
-                            value: item.name,
+                            value: item.name
                         }})
                     )
                 });
