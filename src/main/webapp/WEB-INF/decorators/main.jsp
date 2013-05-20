@@ -40,8 +40,6 @@
 <div class="container">
     <div class="row">
         <div class="span8 offset2">
-            <p class="activePage hide"><sitemesh:write property="meta.activePage"/></p>
-
             <ul class="nav nav-tabs">
                 <li class="OVERVIEW"><a href="/"><fmt:message key="main.nav.overview" /></a></li>
                 <li class="DEPARTMENTS"><a href="/departments/"><fmt:message key="main.nav.departments"/></a></li>
@@ -68,7 +66,7 @@
 </html>
 <script>
     $(function() {
-        var activePage = $("p.activePage").text();
+        var activePage = $("meta[name=activePage]").attr("content");
         $("ul.nav.nav-tabs li").each(function() {
             activePage == $(this).attr("class") ? $(this).addClass("active")  : $(this).removeClass("active");
         });
