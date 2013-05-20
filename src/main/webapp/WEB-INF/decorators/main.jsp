@@ -105,7 +105,7 @@
 
         $( "#checkMunicipalities" ).autocomplete({
             source: function( request, response ) {
-                $.getJSON( "/api/municipalities/" + request.term ).success(function( data ) {
+                $.getJSON( "/api/municipalities/".concat(request.term) ).success(function( data ) {
                     response( $.map(data, function( item ) {
                         return {
                             label: item.name,
