@@ -54,11 +54,11 @@ public class EmployeeController {
     @RequestMapping(value = "/employees/add", method = RequestMethod.POST)
     public String addEmployee(@ModelAttribute("employee") @Valid EmployeeForm employeeForm, BindingResult result, ModelMap model, HttpSession session) {
         if(result.hasErrors()) {
-            FlashMessage.createErrorMessage(session, "employees.add.error", employeeForm.getName());
+            FlashMessage.createErrorMessage(session, "employees.add.error", employeeForm.getLastName(), employeeForm.getFirstName());
             return listEmployees(employeeForm, model, session);
         }
         employeeService.addEmployee(employeeForm);
-        FlashMessage.createSuccessMessage(session, "employees.add.success", employeeForm.getName());
+        FlashMessage.createSuccessMessage(session, "employees.add.success", employeeForm.getLastName(), employeeForm.getFirstName());
         return "redirect:/employees/";
     }
 

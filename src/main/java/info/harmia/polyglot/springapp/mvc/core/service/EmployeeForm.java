@@ -33,10 +33,6 @@ public class EmployeeForm {
     @NotEmpty
     private String municipalityName;
 
-    public String getName() {
-        return lastName.concat(", ").concat(firstName);
-    }
-
     public String getFirstName() {
         return firstName;
     }

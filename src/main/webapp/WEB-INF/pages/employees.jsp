@@ -119,10 +119,10 @@
                                         <a href="#deleteModal${employee.id}" role="button" class="btn btn-danger btn-mini" data-toggle="modal"><fmt:message key="common.delete"/></a>
                                         <div id="deleteModal${employee.id}" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel" aria-hidden="true">
                                             <div class="modal-header">
-                                                <h3 id="deleteModalLabel"><fmt:message key="employees.modal.header"><fmt:param value="${employee.lastName}, ${employee.firstName}"/></fmt:message></h3>
+                                                <h3 id="deleteModalLabel"><fmt:message key="employees.modal.header"><fmt:param value="${employee.lastName}"/><fmt:param value="${employee.firstName}"/></fmt:message></h3>
                                             </div>
                                             <div class="modal-body">
-                                                <p><fmt:message key="employees.modal.body"><fmt:param value="${employee.lastName}, ${employee.firstName}"/></fmt:message></p>
+                                                <p><fmt:message key="employees.modal.body"><fmt:param value="${employee.lastName}"/><fmt:param value="${employee.firstName}"/></fmt:message></p>
                                             </div>
                                             <div class="modal-footer">
                                                 <button class="btn" data-dismiss="modal" aria-hidden="true"><fmt:message key="common.close"/></button>

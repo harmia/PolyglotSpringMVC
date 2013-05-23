@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators/main.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/EmployeeController.java" afterPath="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/EmployeeController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/EmployeeForm.java" afterPath="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/EmployeeForm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/employees.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/employees.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/i18n/messages.properties" afterPath="$PROJECT_DIR$/src/main/resources/i18n/messages.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/i18n/messages_fi.properties" afterPath="$PROJECT_DIR$/src/main/resources/i18n/messages_fi.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PolyglotSpringMVC.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/municipalities.json" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368460667801" ignored="false" />
     <file path="/mvc-dispatcher-servlet.xml" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368460764899" ignored="false" />
-    <file path="/Dummy.txt" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369039313315" ignored="false" />
+    <file path="/Dummy.txt" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369312149842" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/.idea/workspace.xml" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368641067094" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/.idea/misc.xml" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368513895797" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/.idea/modules.xml" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368621417659" ignored="false" />
@@ -23,37 +27,37 @@
     <file path="/Municipality.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368524414020" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/domain/info/harmia/polyglot/grails/Employee.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368527225603" ignored="false" />
     <file path="/Employee.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369060381396" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotGrails/application.properties" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369052034356" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/application.properties" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369075018549" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/conf/BuildConfig.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369052009923" ignored="false" />
     <file path="/BuildConfig.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368620727334" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/conf/Config.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368522807223" ignored="false" />
     <file path="/Config.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368522783950" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/services/info/harmia/polyglot/grails/DepartmentService.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368535336739" ignored="false" />
-    <file path="/DepartmentService.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369061095822" ignored="false" />
+    <file path="/DepartmentService.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369119790256" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/test/unit/info/harmia/polyglot/grails/DepartmentControllerTests.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368535638215" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/controllers/info/harmia/polyglot/grails/DepartmentController.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368532549551" ignored="false" />
-    <file path="/DepartmentController.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369062538960" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/i18n/messages.properties" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369039242518" ignored="false" />
+    <file path="/DepartmentController.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369308320669" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/i18n/messages.properties" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369311513017" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/controllers/info/harmia/polyglot/grails/DepartmentCommand.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368527311806" ignored="false" />
     <file path="/DepartmentCommand.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368527309447" ignored="false" />
-    <file path="/fragment.java" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368617026811" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/views/department/departments.gsp" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369059364481" ignored="false" />
+    <file path="/fragment.java" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369074024239" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/views/department/departments.gsp" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369310914437" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/views/department/index.gsp" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368528483829" ignored="false" />
     <file path="/index.gsp" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368528482009" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/views/layouts/main.gsp" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369069021269" ignored="false" />
-    <file path="/main.gsp" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369068980294" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/views/layouts/main.gsp" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369077430972" ignored="false" />
+    <file path="/main.gsp" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369077425574" ignored="false" />
     <file path="/messages.properties" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369039242518" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/controllers/info/harmia/polyglot/grails/OverviewController.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368531584279" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/test/unit/info/harmia/polyglot/grails/OverviewControllerTests.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368535638215" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/views/overview/overview.gsp" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369045424972" ignored="false" />
-    <file path="/overview.gsp" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369045413548" ignored="false" />
-    <file path="/UrlMappings.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369032960738" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/conf/UrlMappings.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369047165635" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/controllers/info/harmia/polyglot/grails/controller/DepartmentController.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369062577146" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/controllers/info/harmia/polyglot/grails/controller/OverviewController.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369047040626" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/views/overview/overview.gsp" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369310796442" ignored="false" />
+    <file path="/overview.gsp" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369310796442" ignored="false" />
+    <file path="/UrlMappings.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369119243643" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/conf/UrlMappings.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369126292556" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/controllers/info/harmia/polyglot/grails/controller/DepartmentController.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369309771706" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/controllers/info/harmia/polyglot/grails/controller/OverviewController.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369309803060" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/controllers/info/harmia/polyglot/grails/controller/DepartmentCommand.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368535638215" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/test/unit/info/harmia/polyglot/grails/DepartmentServiceTests.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368535591476" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/services/info/harmia/polyglot/grails/service/DepartmentService.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369061118319" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/services/info/harmia/polyglot/grails/service/DepartmentService.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369119796739" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/controllers/info/harmia/polyglot/grails/web/controller/DepartmentController.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368535503935" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/controllers/info/harmia/polyglot/grails/web/controller/OverviewController.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368535503935" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/controllers/info/harmia/polyglot/grails/web/controller/DepartmentCommand.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368535503935" ignored="false" />
@@ -74,30 +78,44 @@
     <file path="/application.properties" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369039846828" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/taglib/flash-message.tag" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368629725254" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/web-app/css/mobile.css" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368630036971" ignored="false" />
-    <file path="/departments.gsp" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369059346165" ignored="false" />
+    <file path="/departments.gsp" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369310889810" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/views/department/fa.gsp" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368632883627" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/controllers/info/harmia/polyglot/grails/controller/DepartmentForm.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368640345802" ignored="false" />
-    <file path="/a.dummy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369047077693" ignored="false" />
+    <file path="/a.dummy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369311952657" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/services/info/harmia/polyglot/grails/service/DepartmentForm.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369061239116" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/services/info/harmia/polyglot/grails/service/EmployeeForm.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369061132049" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/services/info/harmia/polyglot/grails/service/EmployeeForm.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369311546785" ignored="false" />
     <file path="/EmployeeForm.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369061131035" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/controllers/info/harmia/polyglot/grails/controller/EmployeeController.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369059580482" ignored="false" />
-    <file path="/EmployeeController.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369059569819" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/controllers/info/harmia/polyglot/grails/controller/EmployeeController.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369311569145" ignored="false" />
+    <file path="/EmployeeController.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369311561139" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/services/info/harmia/polyglot/grails/service/EmployeeService.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368878176268" ignored="false" />
     <file path="/EmployeeService.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368878176268" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/views/employee/employees.gsp" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369059409019" ignored="false" />
-    <file path="/employees.gsp" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369055142451" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/views/employee/employees.gsp" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369311457274" ignored="false" />
+    <file path="/employees.gsp" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369311422460" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/web-app/js/ui.datepicker-fi.js" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369036354057" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/conf/ApplicationResources.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369040523859" ignored="false" />
     <file path="/ApplicationResources.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369039510554" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/web-app/js/default.js" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369038675776" ignored="false" />
     <file path="/messages_fi.properties" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369039226181" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/i18n/messages_fi.properties" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369039256770" ignored="false" />
-    <file path="/applicationContext.xml" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369042430548" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotGrails/web-app/WEB-INF/applicationContext.xml" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369042431698" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/i18n/messages_fi.properties" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369311715617" ignored="false" />
+    <file path="/applicationContext.xml" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369121326767" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/web-app/WEB-INF/applicationContext.xml" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369121980937" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/i18n/exceptions.properties" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369060627612" ignored="false" />
     <file path="/exceptions.properties" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369060627612" ignored="false" />
     <file path="/DepartmentForm.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369061218636" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/controllers/info/harmia/polyglot/grails/controller/MunicipalityController.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369119869361" ignored="false" />
+    <file path="/MunicipalityController.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369119847630" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/services/info/harmia/polyglot/grails/service/MunicipalitiesService.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369077322422" ignored="false" />
+    <file path="/MunicipalitiesService.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369077321141" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/conf/BootStrap.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369126009558" ignored="false" />
+    <file path="/BootStrap.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369126008528" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/web-app/data/data.json" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369075222513" ignored="false" />
+    <file path="/data.json" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369075193678" ignored="false" />
+    <file path="/main.jsp" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369077458815" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/services/info/harmia/polyglot/grails/service/MunicipalityService.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369119869361" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/conf/spring/resources.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369123708285" ignored="false" />
+    <file path="/resources.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369123704376" ignored="false" />
+    <file path="/employees.jsp" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369311881347" ignored="false" />
+    <file path="/EmployeeController.java" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369312010210" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,28 +176,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EmployeeController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/EmployeeController.java">
+      <file leaf-file-name="DefaultDepartmentService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/DefaultDepartmentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="62" selection-start="2933" selection-end="2933" vertical-scroll-proportion="0.0">
+            <state line="44" column="8" selection-start="2283" selection-end="2283" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OverviewController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/OverviewController.java">
+      <file leaf-file-name="messages.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/messages.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="29" selection-start="2287" selection-end="2531" vertical-scroll-proportion="0.0">
+            <state line="40" column="61" selection-start="1626" selection-end="1626" vertical-scroll-proportion="-14.16">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="ResourceBundle">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages_fi.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/messages_fi.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="57" selection-start="1733" selection-end="1733" vertical-scroll-proportion="-17.0">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="ResourceBundle">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MunicipalityController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/MunicipalityController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="11" selection-start="1744" selection-end="1744" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="26" selection-start="3618" selection-end="3618" vertical-scroll-proportion="0.64070797">
+            <state line="105" column="50" selection-start="4998" selection-end="4998" vertical-scroll-proportion="-11.307693">
               <folding />
             </state>
           </provider>
@@ -188,16 +230,7 @@
       <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="37" selection-start="2339" selection-end="2339" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmployeeForm.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/EmployeeForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="18" selection-start="1804" selection-end="1804" vertical-scroll-proportion="0.0">
+            <state line="50" column="100" selection-start="2484" selection-end="2484" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -206,16 +239,34 @@
       <file leaf-file-name="departments.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/departments.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="90" selection-start="1508" selection-end="1508" vertical-scroll-proportion="-7.8461537">
+            <state line="60" column="117" selection-start="3999" selection-end="3999" vertical-scroll-proportion="-13.730769">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="overview.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/overview.jsp">
+      <file leaf-file-name="employees.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/employees.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="43" selection-start="1508" selection-end="1508" vertical-scroll-proportion="4.4615383">
+            <state line="119" column="128" selection-start="8152" selection-end="8152" vertical-scroll-proportion="-6.923077">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeForm.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/EmployeeForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="87" column="16" selection-start="2908" selection-end="2908" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeController.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/EmployeeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="64" selection-start="3008" selection-end="3008" vertical-scroll-proportion="0.23489168">
               <folding />
             </state>
           </provider>
@@ -242,22 +293,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/DefaultMunicipalityService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/core/model/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/DepartmentController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/EmployeeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/MunicipalityController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/OverviewController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/data/municipalities.json" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/data/data.json" />
         <option value="$PROJECT_DIR$/src/test/java/info/harmia/polyglot/springapp/mvc/AppTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/core/model/Department.java" />
         <option value="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/DefaultEmployeeService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/i18n/messages.properties" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/resources/i18n/messages_fi.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/MunicipalityService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators/main.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/departments.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/employees.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/i18n/messages.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/i18n/messages_fi.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/EmployeeForm.java" />
       </list>
     </option>
   </component>
@@ -1044,7 +1095,19 @@
       <created>1369039317394</created>
       <updated>1369039317394</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fetching the activePage directly from metadata">
+      <created>1369069280595</created>
+      <updated>1369069280595</updated>
+    </task>
+    <task id="LOCAL-00005" summary="string concatenation instead +">
+      <created>1369078297320</created>
+      <updated>1369078297320</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fixed modal on deleting departments (referenced wrongly to employee)">
+      <created>1369310629950</created>
+      <updated>1369310629950</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1092,8 +1155,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19850586" sideWeight="0.6723586" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3276414" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19850586" sideWeight="0.67022413" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276414" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1142,7 +1205,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="replaced unnecessary tabs with =" />
+    <option name="LAST_COMMIT_MESSAGE" value="improved messages, removed unnecessary convenience method" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1159,6 +1222,11 @@
     <MESSAGE value="minor fixes" />
     <MESSAGE value="changed disclaimer" />
     <MESSAGE value="replaced unnecessary tabs with =" />
+    <MESSAGE value="fetching the activePage directly from metadata" />
+    <MESSAGE value="string concatenation instead +" />
+    <MESSAGE value="fixed modal on deleting departments (referenced wrongly to employee)" />
+    <MESSAGE value="improved messages" />
+    <MESSAGE value="improved messages, removed unnecessary convenience method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1168,126 +1236,120 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/DepartmentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="54" selection-start="2207" selection-end="2207" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/DefaultEmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="67" selection-start="3574" selection-end="3574" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/employees.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="77" selection-start="1890" selection-end="1890" vertical-scroll-proportion="41.192307">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/OverviewController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="29" selection-start="2287" selection-end="2531" vertical-scroll-proportion="0.0">
+        <state line="36" column="36" selection-start="2315" selection-end="2315" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/EmployeeForm.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/DefaultMunicipalityService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="18" selection-start="1804" selection-end="1804" vertical-scroll-proportion="0.0">
+        <state line="44" column="33" selection-start="2355" selection-end="2355" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/departments.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/MunicipalityService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="90" selection-start="1508" selection-end="1508" vertical-scroll-proportion="-7.8461537">
+        <state line="18" column="48" selection-start="1412" selection-end="1412" vertical-scroll-proportion="0.40270728">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/overview.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/MunicipalityController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="43" selection-start="1508" selection-end="1508" vertical-scroll-proportion="4.4615383">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/exceptions.properties">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/exceptions_fi.properties">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/messages.properties">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="86" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/messages_fi.properties">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/EmployeeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="62" selection-start="2933" selection-end="2933" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.2.RELEASE/spring-webmvc-3.2.2.RELEASE-sources.jar!/org/springframework/web/servlet/view/UrlBasedViewResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="255" column="16" selection-start="9298" selection-end="9298" vertical-scroll-proportion="0.33260155">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="37" selection-start="2339" selection-end="2339" vertical-scroll-proportion="0.0">
+        <state line="22" column="11" selection-start="1744" selection-end="1744" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="26" selection-start="3618" selection-end="3618" vertical-scroll-proportion="0.64070797">
+        <state line="105" column="50" selection-start="4998" selection-end="4998" vertical-scroll-proportion="-11.307693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/DefaultDepartmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="8" selection-start="2283" selection-end="2283" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.5.0.RELEASE/spring-data-commons-1.5.0.RELEASE.jar!/org/springframework/data/repository/config/spring-repository-1.5.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="4" selection-start="2972" selection-end="2972" vertical-scroll-proportion="0.3327616">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="21" selection-start="2679" selection-end="2679" vertical-scroll-proportion="0.7118353">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="100" selection-start="2484" selection-end="2484" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/departments.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="117" selection-start="3999" selection-end="3999" vertical-scroll-proportion="-13.730769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/overview.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="6" selection-start="1508" selection-end="1508" vertical-scroll-proportion="4.4615383">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/messages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="61" selection-start="1626" selection-end="1626" vertical-scroll-proportion="-14.16">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/messages_fi.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="57" selection-start="1733" selection-end="1733" vertical-scroll-proportion="-17.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/EmployeeForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="16" selection-start="2908" selection-end="2908" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/employees.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="128" selection-start="8152" selection-end="8152" vertical-scroll-proportion="-6.923077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="64" selection-start="3008" selection-end="3008" vertical-scroll-proportion="0.23489168">
           <folding />
         </state>
       </provider>
