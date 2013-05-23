@@ -54,8 +54,8 @@
                             <td>${department.name}</td>
                             <td>
                                 <form action="delete/${department.id}" method="post">
-                                    <a href="#deleteModal${employee.id}" role="button" class="btn btn-danger btn-mini" data-toggle="modal"><fmt:message key="common.delete"/></a>
-                                    <div id="deleteModal${employee.id}" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel" aria-hidden="true">
+                                    <a href="#deleteModal${department.id}" role="button" class="btn btn-danger btn-mini" data-toggle="modal"><fmt:message key="common.delete"/></a>
+                                    <div id="deleteModal${department.id}" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel" aria-hidden="true">
                                         <div class="modal-header">
                                             <h3 id="deleteModalLabel"><fmt:message key="departments.modal.header"><fmt:param value="${department.name}"/></fmt:message></h3>
                                         </div>
