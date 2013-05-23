@@ -44,6 +44,7 @@
                 <li class="OVERVIEW"><a href="/"><fmt:message key="main.nav.overview" /></a></li>
                 <li class="DEPARTMENTS"><a href="/departments/"><fmt:message key="main.nav.departments"/></a></li>
                 <li class="EMPLOYEES"><a href="/employees/"><fmt:message key="main.nav.employees"/></a></li>
+                <li class="LANGUAGE pull-right"><a href="?locale=<fmt:message key='main.nav.language.locale'/>" class="right"><fmt:message key="main.nav.language"/></a></li>
             </ul>
 
             <h1 class="title"><sitemesh:write property="title"/></h1>

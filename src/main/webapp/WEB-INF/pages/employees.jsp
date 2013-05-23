@@ -18,7 +18,7 @@
 <html>
 <head>
     <meta name="activePage" content="EMPLOYEES"/>
-    <title>Employees</title>
+    <title><fmt:message key="employees.title"/></title>
 </head>
 <body>
 <div class="container">

@@ -35,9 +35,9 @@ public class DepartmentController {
         return "departments";
     }
 
-    @RequestMapping(value = "/api/departments", method = RequestMethod.GET, produces = "application/json")
+    @RequestMapping(value = "/api/departments", method = RequestMethod.GET, produces = "application/json;charset=utf-8")
     @ResponseBody
-    public String listDepartmentsJson(ModelMap model) throws JSONException {
+    public String listDepartmentsJson() throws JSONException {
         return departmentService.listDepartmentsJson().toString();
     }
 

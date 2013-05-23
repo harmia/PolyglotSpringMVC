@@ -45,9 +45,9 @@ public class EmployeeController {
         return "employees";
     }
 
-    @RequestMapping(value = "/api/employees", method = RequestMethod.GET, produces = "application/json")
+    @RequestMapping(value = "/api/employees", method = RequestMethod.GET, produces = "application/json;charset=utf-8")
     @ResponseBody
-    public String listEmployeesJson(ModelMap model) throws JSONException {
+    public String listEmployeesJson() throws JSONException {
         return employeeService.listEmployeesJson().toString();
     }
 

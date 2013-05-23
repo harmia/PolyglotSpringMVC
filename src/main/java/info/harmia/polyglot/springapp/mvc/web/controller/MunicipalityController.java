@@ -4,7 +4,6 @@ import info.harmia.polyglot.springapp.mvc.core.service.MunicipalityService;
 import org.json.JSONException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -25,15 +24,15 @@ public class MunicipalityController {
     @Autowired
     private MunicipalityService municipalityService;
 
-    @RequestMapping(value = "api/municipalities/{term}", method = RequestMethod.GET, produces = "application/json")
+    @RequestMapping(value = "api/municipalities/{term}", method = RequestMethod.GET, produces = "application/json;charset=utf-8")
     @ResponseBody
     public String checkMunicipalitiesJson(@PathVariable("term") String term) throws JSONException {
         return municipalityService.checkMunicipalitiesJson(term).toString();
     }
 
-    @RequestMapping(value = "api/municipalities", method = RequestMethod.GET, produces = "application/json")
+    @RequestMapping(value = "api/municipalities", method = RequestMethod.GET, produces = "application/json;charset=utf-8")
     @ResponseBody
-    public String listMunicipalitiesJson(ModelMap model) throws JSONException {
+    public String listMunicipalitiesJson() throws JSONException {
         return municipalityService.listMunicipalitiesJson().toString();
     }
 }
