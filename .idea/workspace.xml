@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/DepartmentController.java" afterPath="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/DepartmentController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/EmployeeController.java" afterPath="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/EmployeeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/MunicipalityController.java" afterPath="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/MunicipalityController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/employees.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/employees.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/i18n/exceptions_fi.properties" afterPath="$PROJECT_DIR$/src/main/resources/i18n/exceptions_fi.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators/main.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators/main.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/i18n/messages.properties" afterPath="$PROJECT_DIR$/src/main/resources/i18n/messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/i18n/messages_fi.properties" afterPath="$PROJECT_DIR$/src/main/resources/i18n/messages_fi.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/pyramid_spring_mvc.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PolyglotSpringMVC.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/municipalities.json" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368460667801" ignored="false" />
     <file path="/mvc-dispatcher-servlet.xml" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369331913185" ignored="false" />
-    <file path="/Dummy.txt" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369312198296" ignored="false" />
+    <file path="/Dummy.txt" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369384981741" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/.idea/workspace.xml" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368641067094" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/.idea/misc.xml" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368513895797" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrails/.idea/modules.xml" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1368621417659" ignored="false" />
@@ -148,6 +140,8 @@
     <file path="/MunicipalityService.groovy" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369330044150" ignored="false" />
     <file path="/DepartmentController.java" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369331290643" ignored="false" />
     <file path="/MunicipalityController.java" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369332681467" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/README.md" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369385179631" ignored="false" />
+    <file path="/README.md" changelist="51f45e7c-e124-4d3c-80c8-6c39c6f9ba9b" time="1369385383758" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,10 +229,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="99" selection-start="5324" selection-end="5324" vertical-scroll-proportion="0.68">
+            <state line="79" column="39" selection-start="4231" selection-end="4231" vertical-scroll-proportion="-0.65384614">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -247,7 +253,7 @@
       <file leaf-file-name="exceptions_fi.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/exceptions_fi.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="56" selection-start="552" selection-end="552" vertical-scroll-proportion="-8.16">
+            <state line="12" column="41" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -268,7 +274,7 @@
       <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="76" selection-start="2443" selection-end="2443" vertical-scroll-proportion="0.0">
+            <state line="46" column="46" selection-start="2443" selection-end="2443" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -276,30 +282,18 @@
       </file>
       <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
           <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
             <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="messages.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/messages.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="58" selection-start="818" selection-end="818" vertical-scroll-proportion="-14.28">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="ResourceBundle">
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
             <state />
           </provider>
         </entry>
@@ -307,7 +301,7 @@
       <file leaf-file-name="employees.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/employees.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="58" selection-start="1691" selection-end="1691" vertical-scroll-proportion="-13.076923">
+            <state line="20" column="55" selection-start="1691" selection-end="1691" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -336,7 +330,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/core/model/Department.java" />
         <option value="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/DefaultEmployeeService.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/MunicipalityService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/departments.jsp" />
@@ -350,6 +343,7 @@
         <option value="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/DepartmentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/MunicipalityController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators/main.jsp" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -394,7 +388,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -910,6 +903,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -919,7 +913,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="File.Encoding" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -939,6 +933,7 @@
       <recent name="D:\IdeaProjects\PolyglotSpringMVC\src\main\java\info\harmia\polyglot\springapp\mvc" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\PolyglotSpringMVC\src\main\webapp\images" />
       <recent name="D:\IdeaProjects\PolyglotSpringMVC\src\main" />
     </key>
   </component>
@@ -1015,7 +1010,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
       <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSRemoteDebuggerConfigurationSettings>
       <method />
@@ -1188,7 +1183,11 @@
       <created>1369312205400</created>
       <updated>1369312205400</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="default encoding to utf-8, fixed json encoding problems with ajax calls">
+      <created>1369333021788</created>
+      <updated>1369333021788</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1215,11 +1214,10 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32887402" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1228,19 +1226,20 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.65774804" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19850586" sideWeight="0.65774804" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34225196" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19850586" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34225196" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32887402" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1286,7 +1285,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="improved messages, removed unnecessary convenience method" />
+    <option name="LAST_COMMIT_MESSAGE" value="default encoding to utf-8, fixed json encoding problems with ajax calls" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1308,6 +1307,7 @@
     <MESSAGE value="fixed modal on deleting departments (referenced wrongly to employee)" />
     <MESSAGE value="improved messages" />
     <MESSAGE value="improved messages, removed unnecessary convenience method" />
+    <MESSAGE value="default encoding to utf-8, fixed json encoding problems with ajax calls" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1317,16 +1317,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/messages_fi.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="2165" selection-end="2165" vertical-scroll-proportion="1.14539">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/exceptions.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="53" selection-start="495" selection-end="495" vertical-scroll-proportion="0.28385898">
@@ -1353,9 +1343,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/messages.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="58" selection-start="818" selection-end="818" vertical-scroll-proportion="-14.28">
-          <folding />
-        </state>
+        <state line="21" column="58" selection-start="818" selection-end="818" vertical-scroll-proportion="-14.28" />
       </provider>
       <provider editor-type-id="ResourceBundle">
         <state />
@@ -1363,18 +1351,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/employees.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="58" selection-start="1691" selection-end="1691" vertical-scroll-proportion="-13.076923">
+        <state line="20" column="55" selection-start="1691" selection-end="1691" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/ui.datepicker-fi.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/info/harmia/polyglot/springapp/mvc/core/repositories/DepartmentRepository.java">
@@ -1385,7 +1369,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
@@ -1393,10 +1377,10 @@
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
     </entry>
@@ -1409,14 +1393,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="76" selection-start="2443" selection-end="2443" vertical-scroll-proportion="0.0">
+        <state line="46" column="46" selection-start="2443" selection-end="2443" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/exceptions_fi.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="56" selection-start="552" selection-end="552" vertical-scroll-proportion="-8.16">
+        <state line="12" column="41" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1447,7 +1431,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="99" selection-start="5324" selection-end="5324" vertical-scroll-proportion="0.68">
+        <state line="79" column="39" selection-start="4231" selection-end="4231" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
