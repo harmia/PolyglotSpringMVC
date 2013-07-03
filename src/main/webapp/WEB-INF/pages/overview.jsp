@@ -27,13 +27,13 @@
 
             <ul class="nav nav-pills" data-tabs="tabs">
                 <c:forEach items="${departments}" var="department" varStatus="status">
-                    <li ${status.first ? 'class="active"' : ''}><a href="#${department.name}" data-toggle="tab">${department.name}</a></li>
+                    <li ${status.first ? 'class="active"' : ''}><a href="#${department.id}" data-toggle="tab">${department.name}</a></li>
                 </c:forEach>
             </ul>
 
             <div class="pill-content">
                 <c:forEach items="${departments}" var="department" varStatus="status">
-                    <div class="pill-pane ${status.first ? ' active' : ''}" id="${department.name}">
+                    <div class="pill-pane ${status.first ? ' active' : ''}" id="${department.id}">
                         <table class="table table-bordered table-striped">
                             <thead>
                             <tr>
