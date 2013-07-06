@@ -1,7 +1,7 @@
 package info.harmia.polyglot.springapp.mvc.core.service;
 
 import info.harmia.polyglot.springapp.mvc.core.model.Municipality;
-import info.harmia.polyglot.springapp.mvc.core.repositories.MunicipalityRepository;
+import info.harmia.polyglot.springapp.mvc.core.repository.MunicipalityRepository;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

@@ -1,7 +1,7 @@
 package info.harmia.polyglot.springapp.mvc.core.service;
 
 import info.harmia.polyglot.springapp.mvc.core.model.Department;
-import info.harmia.polyglot.springapp.mvc.core.repositories.DepartmentRepository;
+import info.harmia.polyglot.springapp.mvc.core.repository.DepartmentRepository;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

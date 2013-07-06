@@ -1,4 +1,4 @@
-package info.harmia.polyglot.springapp.mvc.core.repositories;
+package info.harmia.polyglot.springapp.mvc.core.repository;
 
 import info.harmia.polyglot.springapp.mvc.core.model.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;

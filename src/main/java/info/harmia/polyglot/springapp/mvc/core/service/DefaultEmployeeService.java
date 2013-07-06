@@ -3,7 +3,7 @@ package info.harmia.polyglot.springapp.mvc.core.service;
 import info.harmia.polyglot.springapp.mvc.core.model.Department;
 import info.harmia.polyglot.springapp.mvc.core.model.Employee;
 import info.harmia.polyglot.springapp.mvc.core.model.Municipality;
-import info.harmia.polyglot.springapp.mvc.core.repositories.EmployeeRepository;
+import info.harmia.polyglot.springapp.mvc.core.repository.EmployeeRepository;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
