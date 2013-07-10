@@ -1,5 +1,7 @@
 package info.harmia.polyglot.springapp.mvc.core.model;
 
+import org.hibernate.validator.constraints.NotBlank;
+
 import javax.persistence.*;
 import java.util.List;
 
@@ -21,6 +23,7 @@ public class Department {
     private Long id;
 
     @Basic
+    @NotBlank
     private String name;
 
     @OneToMany(fetch = FetchType.EAGER)

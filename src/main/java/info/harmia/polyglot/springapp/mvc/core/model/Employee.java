@@ -1,8 +1,11 @@
 package info.harmia.polyglot.springapp.mvc.core.model;
 
+import org.hibernate.validator.constraints.Email;
+import org.hibernate.validator.constraints.NotBlank;
 import org.joda.time.LocalDate;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 
 /**
  * Created with IntelliJ IDEA.
@@ -21,21 +24,28 @@ public class Employee {
     private Long id;
 
     @Basic
+    @NotBlank
     private String firstName;
 
     @Basic
+    @NotBlank
     private String lastName;
 
     @Basic
+    @Email
+    @NotBlank
     private String email;
 
     @Basic
+    @NotNull
     private LocalDate contractBeginDate;
 
     @ManyToOne(fetch = FetchType.EAGER)
+    @NotNull
     private Municipality municipality;
 
     @ManyToOne(fetch = FetchType.EAGER)
+    @NotNull
     private Department department;
 
     public Long getId() {

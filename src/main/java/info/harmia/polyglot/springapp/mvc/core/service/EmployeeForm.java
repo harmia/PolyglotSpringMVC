@@ -1,7 +1,7 @@
 package info.harmia.polyglot.springapp.mvc.core.service;
 
 import org.hibernate.validator.constraints.Email;
-import org.hibernate.validator.constraints.NotEmpty;
+import org.hibernate.validator.constraints.NotBlank;
 import org.joda.time.LocalDate;
 
 import javax.validation.constraints.NotNull;
@@ -17,11 +17,11 @@ import javax.validation.constraints.NotNull;
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 public class EmployeeForm {
-    @NotEmpty
+    @NotBlank
     private String firstName;
-    @NotEmpty
+    @NotBlank
     private String lastName;
-    @NotEmpty
+    @NotBlank
     @Email
     private String email;
     @NotNull
@@ -30,7 +30,7 @@ public class EmployeeForm {
     private LocalDate contractBeginDate = new LocalDate();
     @NotNull
     private Long municipalityId;
-    @NotEmpty
+    @NotBlank
     private String municipalityName;
 
     public String getFirstName() {
