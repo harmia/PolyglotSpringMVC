@@ -50,8 +50,8 @@
                     <tbody>
                     <c:forEach items="${departments}" var="department">
                         <tr>
-                            <td>${department.id}</td>
-                            <td>${department.name}</td>
+                            <td><c:out value="${department.id}"/></td>
+                            <td><c:out value="${department.name}"/></td>
                             <td>
                                 <form action="delete/${department.id}" method="post">
                                     <a href="#deleteModal${department.id}" role="button" class="btn btn-danger btn-mini" data-toggle="modal"><fmt:message key="common.delete"/></a>

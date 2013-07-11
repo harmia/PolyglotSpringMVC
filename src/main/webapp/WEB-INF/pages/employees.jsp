@@ -94,26 +94,26 @@
                         <tbody>
                         <c:forEach items="${employees}" var="employee">
                             <tr>
-                                <td>${employee.id}</td>
-                                <td>${employee.lastName}, ${employee.firstName}</td>
-                                <td>${employee.email}</td>
+                                <td><c:out value="${employee.id}"/></td>
+                                <td><c:out value="${employee.lastName}"/>, <c:out value="${employee.firstName}"/></td>
+                                <td><c:out value="${employee.email}"/></td>
                                 <td>
                                     <div class="btn-group">
                                         <a class="btn btn-small dropdown-toggle" data-toggle="dropdown" href="#">
-                                            ${employee.department.name}
+                                            <c:out value="${employee.department.name}"/>
                                             <span class="caret"></span>
                                         </a>
                                         <ul class="dropdown-menu">
                                             <c:forEach items="${departments}" var="department">
                                                 <li>
-                                                    <a onclick="$(this).find('form').submit()">${department.name}<form class="hidden" action="change/${employee.id}/${department.id}" method="post"><button class="btn btn-primary hidden"><fmt:message key="common.change"/></button></form></a>
+                                                    <a onclick="$(this).find('form').submit()"><c:out value="${department.name}"/><form class="hidden" action="change/${employee.id}/${department.id}" method="post"><button class="btn btn-primary hidden"><fmt:message key="common.change"/></button></form></a>
                                                 </li>
                                             </c:forEach>
                                         </ul>
                                     </div>
                                 </td>
                                 <td><joda:format value="${employee.contractBeginDate}"/></td>
-                                <td>${employee.municipality.name}</td>
+                                <td><c:out value="${employee.municipality.name}"/></td>
                                 <td>
                                     <form action="delete/${employee.id}" method="post">
                                         <a href="#deleteModal${employee.id}" role="button" class="btn btn-danger btn-mini" data-toggle="modal"><fmt:message key="common.delete"/></a>

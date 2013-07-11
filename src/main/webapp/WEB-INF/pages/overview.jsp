@@ -27,7 +27,7 @@
 
             <ul class="nav nav-pills" data-tabs="tabs">
                 <c:forEach items="${departments}" var="department" varStatus="status">
-                    <li ${status.first ? 'class="active"' : ''}><a href="#${department.id}" data-toggle="tab">${department.name}</a></li>
+                    <li ${status.first ? 'class="active"' : ''}><a href="#${department.id}" data-toggle="tab"><c:out value="${department.name}"/></a></li>
                 </c:forEach>
             </ul>
 
@@ -45,8 +45,8 @@
                             <c:forEach items="${employees}" var="employee">
                                 <c:if test="${employee.department.id == department.id}">
                                     <tr>
-                                        <td>${employee.lastName}, ${employee.firstName}</td>
-                                        <td>${employee.email}</td>
+                                        <td><c:out value="${employee.lastName}"/>, <c:out value="${employee.firstName}"/></td>
+                                        <td><c:out value="${employee.email}"/></td>
                                     </tr>
                                 </c:if>
                             </c:forEach>
