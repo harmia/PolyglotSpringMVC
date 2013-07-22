@@ -1,4 +1,4 @@
-# Polyglot programming web project with Java using Spring Framework and Hibernate #
+# Web project with Java using Spring Framework and Hibernate #
 
 This example application consist of a small domain model with only simple business logic to add, remove and list departments and employees. This reference implementation serves as proof of concept to demonstrate the feasibility behind polyglot programming and polyglot programming pyramid. Simplicity of the application limits its ability to demonstrate some cases where different programming languages and paradigms might prove useful. This proof of concept is given to verify that the concept has the potential of being used.
 
@@ -9,6 +9,8 @@ This project uses Maven for managing the project and its dependencies.
 The project structure follows the four layer architecture of a simple web application. Domain model represent the real-world problem, repository provides the data access abstraction and service implements the business logic, whereas web module binds the whole application to the web environment.
 
 ![Project structure of the Java project](src/main/webapp/images/project_structure_java.png)
+
+## Polyglot Programming ##
 
 Polyglot programming pyramid specifies the programming languages, frameworks and libraries used in the project. Java is the programming language of choice in this project. It is located in the stable layer of the polyglot programming pyramid, because it is the foundation that provides all the necessities for creating the domain model, the repositories and services, and the controllers in the web module. Spring Framework contributes to the dynamic layer by providing an efficient and versatile web application development framework for Java. Spring is an essential part of the web application implementation and its technologies contribute to all layers.
 
