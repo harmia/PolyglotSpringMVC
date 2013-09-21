@@ -14,7 +14,7 @@ The project structure follows the four layer architecture of a simple web applic
 
 ![Project structure of the Java project](src/main/webapp/images/project_structure_java.png)
 
-## Polyglot Programming ##
+## Polyglot Programming Pyramid ##
 
 Polyglot programming pyramid specifies the programming languages, frameworks and libraries used in the project. Java is the programming language of choice in this project. It is located in the stable layer of the polyglot programming pyramid, because it is the foundation that provides all the necessities for creating the domain model, the repositories and services, and the controllers in the web module. Spring Framework contributes to the dynamic layer by providing an efficient and versatile web application development framework for Java. Spring is an essential part of the web application implementation and its technologies contribute to all layers.
 
